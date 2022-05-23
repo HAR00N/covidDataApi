@@ -26,3 +26,19 @@ This repository was made only for uploading api data to the database.
             "resultCode": "1"
         }
     }
+
+## Repository layout
+    covidDataApi
+    ├ api
+    │   └ dataportalApi.go : connect to api by http GET
+    ├ config
+    │   └ dbConnection.go : connect to database
+    ├ models
+    │   └ covidModel.go : api data format
+    ├ main.go
+    ├ go.mod
+    └ sample.env : database and api url, key setting
+
+# Dev Version
+- Go : 1.18.1
+- GoLand : 2022.1
